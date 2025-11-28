@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+/*h1,a{
+    font-family: Stack Sans Text, sans-serif;
+}
+nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #283039;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}*/
+/* #137fec 1.barva*/
+/* #101922 2.background*/
+
+/* #283039  tertiary color for buttons */
+
+/* #102336  background for cards */
+/*  #116dc9 foreground for cards color */
