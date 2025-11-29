@@ -1,7 +1,7 @@
 <script setup>
 //import '@/assets/global.css'
-import HeaderVue from '@/components/HeaderVue.vue'
-import FooterVue from '@/components/FooterVue.vue'
+import HeaderVue from '@/layouts/headerVue.vue'
+import FooterVue from '@/layouts/footerVue.vue'
 import iconCz from '@/assets/icon-cz.png'
 import github from '@/assets/github.png'
 import linkedin from '@/assets/linkedin.png'
