@@ -1,7 +1,7 @@
 <script setup>
 //import '@/assets/global.css'
 import Introduction from '@/components/cz/introduction.vue';
-import Hobbies from '@/components/cz/hobbies.vue';
+import Skills from '@/components/cz/skills.vue';
 import About from '@/components/cz/about.vue';
 import Whattobring from '@/components/cz/whattobring.vue';
 import Projects from '@/components/cz/projects.vue';
@@ -10,7 +10,7 @@ import Projects from '@/components/cz/projects.vue';
 <template>
     <introduction />
     <About></About>
-  <Hobbies />
+  <Skills />
   <Whattobring/>
   <Projects/>
 </template>

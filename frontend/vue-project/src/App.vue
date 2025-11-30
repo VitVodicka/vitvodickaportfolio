@@ -30,6 +30,7 @@ const toggleLang = () => {
   </v-main>
   <footer-vue />
   </v-app>
+
 </template>
 
 <style scoped>

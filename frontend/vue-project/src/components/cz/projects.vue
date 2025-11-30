@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>Projects</h1>
+    <h2>Projects</h2>
     <v-row>
       <v-col cols="4">
         <v-card color="background" class="hobbiesCards" >

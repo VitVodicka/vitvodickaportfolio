@@ -1,9 +1,9 @@
 <template>
 <v-container>
-<h2>About Me</h2>
+<h2>O mně</h2>
 <p style="color: lightgray;">
-  Hello! I'm Vit Vodicka, a passionate frontend developer with a love for creating engaging and user-friendly web applications. With a background in design and a keen eye for detail, I strive to build interfaces that are not only functional but also visually appealing.
-</p>
+  Jsem softwarový vývojář se 2+ letými zkušenostmi v C#, webových technologiích a práci s API. Baví mě hledat rozumná řešení, zjednodušovat věci a hlavně vylepšovat to, co může fungovat lépe. Rád se učím nové technologie a rychle se v nich zorientuju, ať už jde o backend, frontend nebo komplexnější další.
+</p><p style="color: lightgray;">Díky různorodým zkušenostem z projektů i ze zahraničí dokážu pracovat samostatně, převzít odpovědnost a dotahovat úkoly do konce. Nejde mi jen o to, „aby to běželo“, ale aby výsledek měl reálnou hodnotu a byl udržitelný i do budoucna. Hledám prostředí, kde můžu kombinovat technické dovednosti s iniciativou, přicházet s nápady na zlepšení a posouvat projekty i tým dopředu.</p>
 </v-container>
 
 </template>

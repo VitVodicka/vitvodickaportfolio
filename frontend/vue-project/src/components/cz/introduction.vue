@@ -3,15 +3,13 @@
     <v-row>
         <v-col>
             <v-card color="background" class="hobbiesCards" >
-                <h1 class="title">software engineer</h1>
+                <h1 class="title">Softwarový inženýr a webový vývojář</h1>
                 <p style="color: lightgray;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco l
+                    Ambiciózní softwarový inženýr, který přináší více než jen technické dovednosti. Přináším schopnost řešit problémy a motivaci přinášet skutečnou hodnotu.
                 </p>
                 <div class="button-group">
-                    <v-btn color="itemsPrimary" class="cvButton">Zobrazit CV</v-btn>
-                    <v-btn color="itemsTertiary" class="cvButton">Zobrazit CV</v-btn>
+                    <v-btn color="itemsPrimary" class="cvButton" href="/cv/Vit_Vodicka_cv_EN.pdf" target="_blank">Zobrazit CV</v-btn>
+                    <v-btn color="itemsTertiary" target="_blank" href="https://www.linkedin.com/in/v%C3%ADt-vodicka-639bb4245/"  class="cvButton">Linkedin</v-btn>
                 </div>
             </v-card>
 
@@ -26,7 +24,6 @@
 </template>
 <script>
 import profile from '@/assets/profile.jpg'
-
 
 export default {
     name: 'Introduction',
