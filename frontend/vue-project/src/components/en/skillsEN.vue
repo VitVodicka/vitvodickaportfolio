@@ -1,7 +1,7 @@
 <template>
 
 <v-container class="pa-4">
-    <h2>Dovednosti</h2>
+    <h2>Skills</h2>
     <v-row >
 
 <v-col>
@@ -38,7 +38,7 @@
 
 <v-col>
 <v-card color="background" class="hobbiesCards" >
-    <v-card-title>Databáze a DevOps</v-card-title>
+    <v-card-title>Database & DevOps</v-card-title>
     <v-card-text>
         <div class="v-chipGroup">
             <v-chip style="flex" class="v-chip">PostgreSQL</v-chip>
@@ -54,15 +54,15 @@
 
 <v-col>
 <v-card color="background" class="hobbiesCards" >
-    <v-card-title>Ostatní</v-card-title>
+    <v-card-title>Others</v-card-title>
     <v-card-text>
         <div class="v-chipGroup">
-            <v-chip style="flex" class="v-chip">Angličtina</v-chip>
-            <v-chip style="flex" class="v-chip">Němčina</v-chip>
+            <v-chip style="flex" class="v-chip">English</v-chip>
+            <v-chip style="flex" class="v-chip">German</v-chip>
             <v-chip style="flex" class="v-chip">AI</v-chip>
             <v-chip style="flex" class="v-chip">HW</v-chip>
-            <v-chip style="flex" class="v-chip">Základy sítí</v-chip>
-            <v-chip style="flex" class="v-chip">API testování</v-chip>
+            <v-chip style="flex" class="v-chip">Networks essentials</v-chip>
+            <v-chip style="flex" class="v-chip">API testing</v-chip>
             <v-chip style="flex" class="v-chip">Kotlin/Swift</v-chip>
         </div>
     </v-card-text>
@@ -101,6 +101,6 @@ h2{
 </style>
 <script>
 export default {
-  name: 'Skills',
+  name: 'SkillsEN',
 };
 </script>
