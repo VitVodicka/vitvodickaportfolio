@@ -11,8 +11,10 @@ import Projects from '@/components/cz/projects.vue';
     <introduction />
     <About></About>
   <Skills />
-  <Whattobring/>
+  
   <Projects/>
+  
+  <Whattobring/>
 </template>
 
 <style>

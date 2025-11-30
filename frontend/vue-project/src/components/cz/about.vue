@@ -7,6 +7,13 @@
 </v-container>
 
 </template>
+<style scoped>
+h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+</style>
 <script>
 export default {
     name: 'About'};

@@ -77,6 +77,7 @@
 
   </v-row>
   </v-container>
+  <div class="spacer"></div>
 </template>
 <script >
 import iconCz from '@/assets/icon-cz.png'
@@ -105,6 +106,10 @@ export default {
 
 
 }
+h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
 .hirringCards {
     border: 2px solid  #374151;
     border-radius: 5px;
@@ -117,7 +122,9 @@ export default {
 
 
 }
-
+.spacer{
+    margin-bottom: 100px;
+}
 
 
 </style>

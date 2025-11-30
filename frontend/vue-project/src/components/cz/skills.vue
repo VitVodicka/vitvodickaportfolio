@@ -94,6 +94,9 @@
     margin: 5px;
     border-radius: 5px;
 }
+h2{
+    margin-bottom: 20px;
+}
 </style>
 <script>
 export default {
