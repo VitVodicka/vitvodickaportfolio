@@ -1,18 +1,18 @@
 <script setup>
 //import '@/assets/global.css'
-import Introduction from '@/components/introduction.vue';
-import HeaderVue from '@/layouts/headerVue.vue'
-import Hobbies from '@/components/hobbies.vue';
-import About from '@/components/about.vue';
+import Introduction from '@/components/cz/introduction.vue';
+import Hobbies from '@/components/cz/hobbies.vue';
+import About from '@/components/cz/about.vue';
+import Whattobring from '@/components/cz/whattobring.vue';
+import Projects from '@/components/cz/projects.vue';
 </script>
 
 <template>
     <introduction />
     <About></About>
   <Hobbies />
-  <div class="home">
-    <h1>Welcome to the Home Page</h1>
-  </div>
+  <Whattobring/>
+  <Projects/>
 </template>
 
 <style>

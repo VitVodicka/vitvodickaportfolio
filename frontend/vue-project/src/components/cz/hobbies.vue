@@ -8,7 +8,7 @@
 <v-card color="background" class="hobbiesCards" >
     <v-card-title>Frontend</v-card-title>
     <v-card-text>
-        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+        <div class="v-chipGroup">
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
@@ -23,7 +23,7 @@
 <v-card color="background" class="hobbiesCards" >
     <v-card-title>Frontend</v-card-title>
     <v-card-text>
-        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+        <div class="v-chipGroup">
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
@@ -38,7 +38,7 @@
 <v-card color="background" class="hobbiesCards" >
     <v-card-title>Frontend</v-card-title>
     <v-card-text>
-        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+        <div class="v-chipGroup">
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
@@ -53,7 +53,7 @@
 <v-card color="background" class="hobbiesCards" >
     <v-card-title>Frontend</v-card-title>
     <v-card-text>
-        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+        <div class="v-chipGroup">
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
             <v-chip style="flex" class="v-chip">ble</v-chip>
@@ -76,12 +76,17 @@
     border-radius: 5px;
 
 }
+.v-chipGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
 .v-chip{
     display: flex;
     color: #137fec;
     background-color: #101922;
     padding: 5px;
-    margin: 5px;;
+    margin: 5px;
     border-radius: 5px;
 }
 </style>
