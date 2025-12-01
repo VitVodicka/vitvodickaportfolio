@@ -4,22 +4,25 @@
 import iconCz from '@/assets/icon-cz.png'
 import github from '@/assets/github.png'
 import linkedin from '@/assets/linkedin.png'
-import HeaderVue from '@/layouts/headerVue.vue'
-import FooterVue from '@/layouts/footerVue.vue'
+import HeaderVue from '@/layouts/CZ/HeaderVue.vue'
+import FooterVue from '@/layouts/CZ/footerVue.vue'
+import { useLanguageStore } from './stores/languageStore'
+import { onMounted, ref } from 'vue'
+import HeaderVueEN from '@/layouts/EN/HeaderVueEN.vue'
+import FooterVueEN from '@/layouts/EN/footerVueEN.vue'
 
-import { ref } from 'vue'
-const lang = ref('cs')
+const languageStore = useLanguageStore();
 
-const toggleLang = () => {
-  lang.value = lang.value === 'cs' ? 'en' : 'cs'
-}
+
+
+
 
 </script>
 
 <template>
   <v-app>
-
-  <HeaderVue />
+  <HeaderVue v-if="languageStore.language === 'cz'" />
+  <HeaderVueEN v-else />
   
   <v-main>
   <router-view />
@@ -28,7 +31,8 @@ const toggleLang = () => {
 
   
   </v-main>
-  <footer-vue />
+  <footer-vue v-if="languageStore.language === 'cz'" />
+  <footer-vueEN v-else />
   </v-app>
 
 </template>

@@ -8,7 +8,7 @@
                     Ambiciózní softwarový inženýr, který přináší více než jen technické dovednosti. Přináším schopnost řešit problémy a motivaci přinášet skutečnou hodnotu.
                 </p>
                 <div class="button-group">
-                    <v-btn color="itemsPrimary" class="cvButton" href="/cv/Vit_Vodicka_cv_EN.pdf" target="_blank">Zobrazit CV</v-btn>
+                    <v-btn color="itemsPrimary" class="cvButton" href="/cv/Vit_Vodicka_CV_CZ.pdf" target="_blank">Zobrazit CV</v-btn>
                     <v-btn color="itemsTertiary" target="_blank" href="https://www.linkedin.com/in/v%C3%ADt-vodicka-639bb4245/"  class="cvButton">Linkedin</v-btn>
                 </div>
             </v-card>

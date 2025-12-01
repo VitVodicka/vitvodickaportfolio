@@ -7,7 +7,7 @@
           <v-img :src="planner" height="170" cover="full"   ></v-img>
           <v-card-title class="cardTitle">FinancialPortal</v-card-title>
           <v-card-text>
-            <p class="paragraph">Desktop WPF application for personal finance management. It allows you to record income and expenses, display them in graphs, and includes two calculators for mortgages and investments. Data is stored in a database hosted in Azure.</p>
+            <p class="paragraph">WPF application for personal finance management. It allows you to record income and expenses, display them in graphs, and includes two calculators for mortgages and investments. Data is stored in a DB hosted in Azure.</p>
           
 
             <div style="display:flex; flex-wrap:wrap; gap:8px;">

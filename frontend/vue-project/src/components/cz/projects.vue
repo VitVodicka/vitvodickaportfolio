@@ -7,7 +7,7 @@
           <v-img :src="planner" height="170" cover="full"   ></v-img>
           <v-card-title class="cardTitle">FinancialPortal</v-card-title>
           <v-card-text>
-            <p class="paragraph">Desktopová WPF aplikace pro správu osobních financí. Umožňuje evidovat příjmy a výdaje, zobrazovat je v přehledných grafech a obsahuje dva kalkulátory hypoteční a investiční. Data ukládá do databáze hostované v Azure.</p>
+            <p class="paragraph">Desktopová WPF aplikace pro správu osobních financí. Umožňuje evidovat příjmy a výdaje, zobrazovat je v přehledných grafech a obsahuje dva kalkulátory hypoteční a investiční. Data ukládá do DB hostované v Azure.</p>
           
 
             <div style="display:flex; flex-wrap:wrap; gap:8px;">
