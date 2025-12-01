@@ -1,5 +1,5 @@
 <template>
-<v-container>
+<v-container id="about">
 <h2>About me</h2>
 <p style="color: lightgray;">
   I am a software developer with over two years of experience in C#, web technologies, and working with APIs. I enjoy finding sensible solutions, simplifying things, and, above all, improving what can work better. I like learning new technologies and quickly getting to grips with them, whether they are backend, frontend, or more complex.

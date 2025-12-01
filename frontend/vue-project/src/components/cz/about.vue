@@ -1,5 +1,5 @@
 <template>
-<v-container>
+<v-container id="about">
 <h2>O mně</h2>
 <p style="color: lightgray;">
   Jsem softwarový vývojář se 2+ letými zkušenostmi v C#, webových technologiích a práci s API. Baví mě hledat rozumná řešení, zjednodušovat věci a hlavně vylepšovat to, co může fungovat lépe. Rád se učím nové technologie a rychle se v nich zorientuju, ať už jde o backend, frontend nebo komplexnější další.

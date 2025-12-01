@@ -1,60 +1,60 @@
 <template>
-  <v-container>
+  <v-container id="projects">
     <h2>Projekty</h2>
     <v-row>
       <v-col cols="4">
-        <v-card color="background" class="hobbiesCards" >
+        <v-card color="background" class="projectsCards" >
           <v-img :src="planner" height="170" cover="full"   ></v-img>
           <v-card-title class="cardTitle">FinancialPortal</v-card-title>
           <v-card-text>
             <p class="paragraph">Desktopová WPF aplikace pro správu osobních financí. Umožňuje evidovat příjmy a výdaje, zobrazovat je v přehledných grafech a obsahuje dva kalkulátory hypoteční a investiční. Data ukládá do DB hostované v Azure.</p>
           
 
-            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+            <div >
               <v-chip style="flex" class="v-chip">C# .NET</v-chip>
               <v-chip style="flex" class="v-chip">Azure</v-chip>
               <v-chip style="flex" class="v-chip">WPF</v-chip>
 
             </div>
-            <h4 href="https://github.com/VitVodicka/FinancialPortal" >Zdrojový kod</h4>
+            <a href="https://github.com/VitVodicka/FinancialPortal" >Zdrojový kod</a>
             
           </v-card-text>
         </v-card>
       </v-col>
 
       <v-col cols="4">
-        <v-card color="background" class="hobbiesCards" >
+        <v-card color="background" class="projectsCards" >
           <v-img :src="blog" height="170" cover="full"   ></v-img>
           <v-card-title class="cardTitle">Blog</v-card-title>
           <v-card-text>
             <p class="paragraph">ASP.NET webová aplikace ve stylu blogu, která umožňuje přidávat a hodnotit články. Projekt jsem použil k procvičení MVC architektury, Razor view, práce s daty a frontendu (HTML, CSS, JavaScript, ASP.NET).</p>
           
 
-            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+            <div >
               <v-chip style="flex" class="v-chip">ASP.NET</v-chip>
               <v-chip style="flex" class="v-chip">Razor pages</v-chip>
               <v-chip style="flex" class="v-chip">JavaScript</v-chip>
             </div>
-            <h4 href="https://github.com/VitVodicka/Blog" >Zdrojový kod</h4>
+            <a  href="https://github.com/VitVodicka/Blog" >Zdrojový kod</a>
             
           </v-card-text>
         </v-card>
       </v-col>
 
       <v-col cols="4">
-        <v-card color="background" class="hobbiesCards" >
+        <v-card color="background" class="projectsCards" >
           <v-img :src="portfolio" height="170" cover="full"   ></v-img>
           <v-card-title class="cardTitle">Portfolio web</v-card-title>
           <v-card-text>
             <p class="paragraph">Osobní portfolio web pro prezentaci projektů, dovedností a zkušeností. Postavený na Vue 3 a Vuetify psaný typescriptem s důrazem na čistý design, responzivní layout a jednoduchou správu obsahu.</p>
           
 
-            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+            <div>
               <v-chip style="flex" class="v-chip">Vue</v-chip>
               <v-chip style="flex" class="v-chip">Typescript</v-chip>
 
             </div>
-            <h4 href="https://github.com/VitVodicka/vitvodickaportfolio" >Zdrojový kod</h4>
+            <a  href="https://github.com/VitVodicka/vitvodickaportfolio" >Zdrojový kod</a>
             
           </v-card-text>
         </v-card>
@@ -66,7 +66,7 @@
       </v-container>
 </template>
 <style scoped>
-.hobbiesCards {
+.projectsCards {
     border: 2px solid  #374151;
     border-radius: 5px;
 
@@ -79,9 +79,9 @@
 .cardTitle{
     font-weight: 700;
 }
-h4{
-    margin-top: 15px;
+a{
     color: #137fec;
+    text-decoration: none;
     cursor: pointer;
 }
 h2{

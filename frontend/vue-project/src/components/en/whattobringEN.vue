@@ -1,6 +1,6 @@
 <template>
 
-    <v-container class="pa-4">
+    <v-container class="pa-4" id="whattobring">
     <h2>What can I bring?</h2>
     <v-row>
 

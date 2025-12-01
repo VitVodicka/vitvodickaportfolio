@@ -1,11 +1,11 @@
 <template>
 
-<v-container class="pa-4">
+<v-container class="pa-4" id="skills">
     <h2>Skills</h2>
     <v-row >
 
 <v-col>
-<v-card color="background" class="hobbiesCards" >
+<v-card color="background" class="skillsCards" >
     <v-card-title>Frontend</v-card-title>
     <v-card-text>
         <div class="v-chipGroup">
@@ -21,7 +21,7 @@
 </v-col>
 
 <v-col>
-<v-card color="background" class="hobbiesCards" >
+<v-card color="background" class="skillsCards" >
     <v-card-title>Backend</v-card-title>
     <v-card-text>
         <div class="v-chipGroup">
@@ -37,7 +37,7 @@
 </v-col>
 
 <v-col>
-<v-card color="background" class="hobbiesCards" >
+<v-card color="background" class="skillsCards" >
     <v-card-title>Database & DevOps</v-card-title>
     <v-card-text>
         <div class="v-chipGroup">
@@ -53,7 +53,7 @@
 </v-col>
 
 <v-col>
-<v-card color="background" class="hobbiesCards" >
+<v-card color="background" class="skillsCards" >
     <v-card-title>Others</v-card-title>
     <v-card-text>
         <div class="v-chipGroup">
@@ -76,7 +76,7 @@
   </v-container>
 </template>
 <style scoped>
-.hobbiesCards {
+.skillsCards {
     border: 2px solid  #374151;
     border-radius: 5px;
     height: 100%;
