@@ -10,11 +10,10 @@
             <p class="paragraph">Desktopová WPF aplikace pro správu osobních financí. Umožňuje evidovat příjmy a výdaje, zobrazovat je v přehledných grafech a obsahuje dva kalkulátory hypoteční a investiční. Data ukládá do DB hostované v Azure.</p>
           
 
-            <div >
-              <v-chip style="flex" class="v-chip">C# .NET</v-chip>
-              <v-chip style="flex" class="v-chip">Azure</v-chip>
-              <v-chip style="flex" class="v-chip">WPF</v-chip>
-
+            <div class="projectsChips">
+              <v-chip class="v-chip">C# .NET</v-chip>
+              <v-chip class="v-chip">Azure</v-chip>
+              <v-chip class="v-chip">WPF</v-chip>
             </div>
             <a href="https://github.com/VitVodicka/FinancialPortal" >Zdrojový kod</a>
             
@@ -30,7 +29,7 @@
             <p class="paragraph">ASP.NET webová aplikace ve stylu blogu, která umožňuje přidávat a hodnotit články. Projekt jsem použil k procvičení MVC architektury, Razor view, práce s daty a frontendu (HTML, CSS, JavaScript, ASP.NET).</p>
           
 
-            <div >
+            <div class="projectsChips">
               <v-chip style="flex" class="v-chip">ASP.NET</v-chip>
               <v-chip style="flex" class="v-chip">Razor pages</v-chip>
               <v-chip style="flex" class="v-chip">JavaScript</v-chip>
@@ -49,7 +48,7 @@
             <p class="paragraph">Osobní portfolio web pro prezentaci projektů, dovedností a zkušeností. Postavený na Vue 3 a Vuetify psaný typescriptem s důrazem na čistý design, responzivní layout a jednoduchou správu obsahu.</p>
           
 
-            <div>
+            <div class="projectsChips">
               <v-chip style="flex" class="v-chip">Vue</v-chip>
               <v-chip style="flex" class="v-chip">Typescript</v-chip>
 
@@ -66,6 +65,11 @@
       </v-container>
 </template>
 <style scoped>
+.projectsChips {
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:8px;
+}
 .projectsCards {
     border: 2px solid  #374151;
     border-radius: 5px;

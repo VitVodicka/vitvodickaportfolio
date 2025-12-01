@@ -10,7 +10,7 @@
             <p class="paragraph">WPF application for personal finance management. It allows you to record income and expenses, display them in graphs, and includes two calculators for mortgages and investments. Data is stored in a DB hosted in Azure.</p>
           
 
-            <div >
+            <div class="projectsChips">
               <v-chip style="flex" class="v-chip">C# .NET</v-chip>
               <v-chip style="flex" class="v-chip">Azure</v-chip>
               <v-chip style="flex" class="v-chip">WPF</v-chip>
@@ -30,7 +30,7 @@
             <p class="paragraph">An ASP.NET web application in the style of a blog that allows users to add and rate articles. I used this project to practice MVC architecture, Razor view, working with data, and frontend (HTML, CSS, JavaScript, ASP.NET).</p>
           
 
-            <div>
+            <div class="projectsChips">
               <v-chip style="flex" class="v-chip">ASP.NET</v-chip>
               <v-chip style="flex" class="v-chip">Razor pages</v-chip>
               <v-chip style="flex" class="v-chip">JavaScript</v-chip>
@@ -49,7 +49,7 @@
             <p class="paragraph">Personal portfolio website for presenting projects, skills, and experience. Built on Vue 3 and Vuetify, written in TypeScript with an emphasis on clean design, responsive layout, and easy content management.</p>
           
 
-            <div>
+            <div class="projectsChips">
               <v-chip style="flex" class="v-chip">Vue</v-chip>
               <v-chip style="flex" class="v-chip">Typescript</v-chip>
 
@@ -70,6 +70,11 @@
     border: 2px solid  #374151;
     border-radius: 5px;
 
+}
+.projectsChips {
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:8px;
 }
 .paragraph {
     color: lightgray;
