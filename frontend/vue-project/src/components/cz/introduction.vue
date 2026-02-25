@@ -3,9 +3,10 @@
     <v-row>
         <v-col>
             <v-card color="background" class="hobbiesCards" >
-                <h1 class="title">Softwarový inženýr a webový vývojář</h1>
+                <h1 class="title">Softwarový vývojář se zaměřením na .NET backend a moderní webové aplikace</h1>
                 <p style="color: lightgray;">
-                    Ambiciózní softwarový inženýr, který přináší více než jen technické dovednosti. Přináším schopnost řešit problémy a motivaci přinášet skutečnou hodnotu.
+                    Vyvíjím webové aplikace pomocí .NET a moderních frontendových technologií.
+Mám zkušenosti s tvorbou API, prací s databázemi a vývojem produkčních systémů.
                 </p>
                 <div class="button-group">
                     <v-btn color="itemsPrimary" class="cvButton" href="/cv/Vit_Vodicka_CV_CZ.pdf" target="_blank">Zobrazit CV</v-btn>

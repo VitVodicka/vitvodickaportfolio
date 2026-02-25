@@ -3,9 +3,11 @@
     <v-row>
         <v-col>
             <v-card color="background" class="hobbiesCards" >
-                <h1 class="title">Software Engineer & Web Developer</h1>
+                <h1 class="title">Software Developer
+                    .NET Backend & Modern Web Applications</h1>
                 <p style="color: lightgray;">
-                    An ambitious software engineer who brings more than just technical skills. I bring problem-solving abilities and motivation to deliver real value.
+                    Developing web applications using .NET and modern frontend technologies.
+Experience with APIs, databases and real-world production systems.
                 </p>
                 <div class="button-group">
                     <v-btn color="itemsPrimary" class="cvButton" href="/cv/Vit_Vodicka_cv_EN.pdf" target="_blank">Show CV</v-btn>

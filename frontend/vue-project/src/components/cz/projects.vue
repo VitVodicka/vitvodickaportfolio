@@ -2,45 +2,28 @@
   <v-container id="projects">
     <h2>Projekty</h2>
     <v-row>
-      <v-col cols="4">
+      <v-col >
         <v-card color="background" class="projectsCards" >
-          <v-img :src="planner" height="170" cover="full"   ></v-img>
-          <v-card-title class="cardTitle">FinancialPortal</v-card-title>
+          <v-img :src="map" height="170" cover="full"   ></v-img>
+          <v-card-title class="cardTitle">GridPath</v-card-title>
           <v-card-text>
-            <p class="paragraph">Desktopová WPF aplikace pro správu osobních financí. Umožňuje evidovat příjmy a výdaje, zobrazovat je v přehledných grafech a obsahuje dva kalkulátory hypoteční a investiční. Data ukládá do DB hostované v Azure.</p>
+            <p class="paragraph">Backendová aplikace pro výpočet optimálního vedení kabelů přes katastrální parcely. Využívá hodnocení parcel, prostorová omezení a optimalizační algoritmus k nalezení nákladově efektivních tras.</p>
           
 
             <div class="projectsChips">
               <v-chip class="v-chip">C# .NET</v-chip>
-              <v-chip class="v-chip">Azure</v-chip>
-              <v-chip class="v-chip">WPF</v-chip>
+              <v-chip class="v-chip">ASP.NET</v-chip>
+              <v-chip class="v-chip">MVC</v-chip>
             </div>
-            <a href="https://github.com/VitVodicka/FinancialPortal" >Zdrojový kod</a>
+            <a href="https://github.com/VitVodicka/GridPath" >Source code</a>
             
           </v-card-text>
         </v-card>
       </v-col>
 
-      <v-col cols="4">
-        <v-card color="background" class="projectsCards" >
-          <v-img :src="blog" height="170" cover="full"   ></v-img>
-          <v-card-title class="cardTitle">Blog</v-card-title>
-          <v-card-text>
-            <p class="paragraph">ASP.NET webová aplikace ve stylu blogu, která umožňuje přidávat a hodnotit články. Projekt jsem použil k procvičení MVC architektury, Razor view, práce s daty a frontendu (HTML, CSS, JavaScript, ASP.NET).</p>
-          
+    
 
-            <div class="projectsChips">
-              <v-chip style="flex" class="v-chip">ASP.NET</v-chip>
-              <v-chip style="flex" class="v-chip">Razor pages</v-chip>
-              <v-chip style="flex" class="v-chip">JavaScript</v-chip>
-            </div>
-            <a  href="https://github.com/VitVodicka/Blog" >Zdrojový kod</a>
-            
-          </v-card-text>
-        </v-card>
-      </v-col>
-
-      <v-col cols="4">
+      <v-col >
         <v-card color="background" class="projectsCards" >
           <v-img :src="portfolio" height="170" cover="full"   ></v-img>
           <v-card-title class="cardTitle">Portfolio web</v-card-title>
@@ -95,14 +78,14 @@ h2{
 </style>
 <script >
 import  profile  from '@/assets/profile.jpg';
-import planner from '@/assets/projects/planner.png'
 import portfolio from '@/assets/projects/portfolio.png'
-import blog from '@/assets/projects/blog.png'
+import map from '@/assets/map.png'
+
 
 export default{
     name: 'Projects', data() {
         return {
-            profile, planner, portfolio, blog
+            profile, portfolio, map
         }
     }
 };

@@ -13,8 +13,6 @@
             <v-chip style="flex" class="v-chip">HTML</v-chip>
             <v-chip style="flex" class="v-chip">CSS</v-chip>
             <v-chip style="flex" class="v-chip">Typescript</v-chip>
-            <v-chip style="flex" class="v-chip">Elementor</v-chip>
-            <v-chip style="flex" class="v-chip">Wordpress</v-chip>
         </div>
     </v-card-text>
 </v-card>
@@ -60,10 +58,7 @@
             <v-chip style="flex" class="v-chip">English</v-chip>
             <v-chip style="flex" class="v-chip">German</v-chip>
             <v-chip style="flex" class="v-chip">AI</v-chip>
-            <v-chip style="flex" class="v-chip">HW</v-chip>
             <v-chip style="flex" class="v-chip">Networks essentials</v-chip>
-            <v-chip style="flex" class="v-chip">API testing</v-chip>
-            <v-chip style="flex" class="v-chip">Kotlin/Swift</v-chip>
         </div>
     </v-card-text>
 </v-card>
